@@ -152,13 +152,13 @@ class IdCard extends StatelessWidget {
                   IconButton(
                     onPressed: () {
                       _launchURL(
-                          'https://auth.riotgames.com/login#acr_values=urn%3Ariot%3Agold&client_id=accountodactyl-prod&redirect_uri=https%3A%2F%2Faccount.riotgames.com%2Foauth2%2Flog-in&response_type=code&scope=openid%20email%20profile%20riot%3A%2F%2Friot.atlas%2Faccounts.edit%20riot%3A%2F%2Friot.atlas%2Faccounts%2Fpassword.edit%20riot%3A%2F%2Friot.atlas%2Faccounts%2Femail.edit%20riot%3A%2F%2Friot.atlas%2Faccounts.auth%20riot%3A%2F%2Fthird_party.revoke%20riot%3A%2F%2Fthird_party.query%20riot%3A%2F%2Fforgetme%2Fnotify.write%20riot%3A%2F%2Friot.authenticator%2Fauth.code&state=7510832e-9d11-4f41-88db-77990a1dd9bb');
+                          'https://discord.gg/zthnM3EG');
                     },
-                    icon: FaIcon(FontAwesomeIcons.gamepad),
+                    icon: FaIcon(FontAwesomeIcons.discord),
                     color: Colors.white38,
                   ),
                   Text(
-                    'Valorant : Void OG #On1',
+                    'Discord : Sasti_Masti',
                     style: TextStyle(color: Colors.white38, fontSize: 19.0),
                   )
                 ],
